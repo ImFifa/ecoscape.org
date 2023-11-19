@@ -21,5 +21,5 @@ This website is a part of the 4IZ268 course, focusing on web development and des
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/EcoScape-Project.git
+   git clone https://github.com/ImFifa/ecoscape.org.git
    ```
