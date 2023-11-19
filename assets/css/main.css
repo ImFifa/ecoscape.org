@@ -135,30 +135,33 @@ nav .container {
   border-radius: 5px;
 }
 
-.navbar-collapse {
+.navbar-collapse-wrapper {
   z-index: 10;
   margin-top: 80px;
-  padding: 2rem 0;
   position: absolute;
   background-color: #def1e0;
   top: 0;
   left: -100vw;
   width: 100vw;
   height: calc(100vh - 80px);
+  overflow-y: auto;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-collapse {
+  padding: 2rem 0 6rem 0;
   list-style-type: none;
   padding-left: unset;
   display: none;
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
-  transition: all 0.3s ease-in-out;
-  overflow-y: scroll;
 }
 .navbar-collapse li {
   max-width: 400px;
 }
 
-.navbar-collapse.show {
+.navbar-collapse-wrapper.show {
   left: 0;
 }
 
@@ -171,7 +174,6 @@ nav .container {
   list-style-type: none;
   height: 0;
   display: none;
-  opacity: 0;
   background-color: rgba(255, 255, 255, 0.2);
 }
 .navbar-dropdown .nav-link {
@@ -181,7 +183,6 @@ nav .container {
 .navbar-dropdown.show {
   display: block;
   height: auto;
-  opacity: 1;
 }
 .navbar-dropdown.show .nav-link {
   transition: all 0.1s ease-in-out;

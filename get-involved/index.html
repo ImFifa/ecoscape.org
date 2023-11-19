@@ -54,70 +54,73 @@
           <path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
         </svg>
       </button>
-      <ul class="navbar-collapse" id="navbarCollapse">
-        <li>
-          <a class="nav-link" aria-label="Visit homepage" href="./../">Home</a>
-        </li>
-        <li>
-          <div class="dropdown-link">
-            <a class="nav-link" aria-label="Visit articles page" href="./../articles/">Articles</a>
-            <svg xmlns="http://www.w3.org/2000/svg" data-target="articlesDropdown" viewBox="0 0 24 24">
-              <title>chevron-right</title>
-              <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-            </svg>
-          </div>
-          <ul class="navbar-dropdown" id="articlesDropdown">
-            <li><a class="nav-link" aria-label="Visit latest news page" href="./../latest-news/">Latest News</a></li>
-            <li><a class="nav-link" aria-label="Visit archive page" href="./../archive/">Archive</a></li>
-          </ul>
-        </li>
-        <li>
-          <div class="dropdown-link">
-            <a class="nav-link" aria-label="Visit resources page" href="./../resources/">Resources</a>
-            <svg xmlns="http://www.w3.org/2000/svg" data-target="resourcesDropdown" viewBox="0 0 24 24">
-              <title>chevron-right</title>
-              <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-            </svg>
-          </div>
-          <ul class="navbar-dropdown" id="resourcesDropdown">
-            <li><a class="nav-link" aria-label="Visit climate change page" href="./../climate-change/">Climate
-                Change</a>
-            </li>
-            <li><a class="nav-link" aria-label="Visit ocean protection page" href="./../ocean-protection/">Ocean
-                Protection</a></li>
-          </ul>
-        </li>
-        <li>
-          <div class="dropdown-link">
-            <a class="nav-link active" aria-label="Visit get involved page" href="./../get-involved/">Get Involved</a>
-            <svg xmlns="http://www.w3.org/2000/svg" data-target="getIvolvedDropdown" viewBox="0 0 24 24">
-              <title>chevron-right</title>
-              <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-            </svg>
-          </div>
-          <ul class="navbar-dropdown" id="getIvolvedDropdown">
-            <li><a class="nav-link" aria-label="Visit donate page" href="./../donate/">Donate</a></li>
-            <li><a class="nav-link" aria-label="Visit volunteer page" href="./../volunteer/">Volunteer</a></li>
-          </ul>
-        </li>
-        <li>
-          <div class="dropdown-link">
-            <a class="nav-link" aria-label="Visit about us page" href="./../about-us/">About Us</a>
-            <svg xmlns="http://www.w3.org/2000/svg" data-target="aboutUsDropdown" viewBox="0 0 24 24">
-              <title>chevron-right</title>
-              <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-            </svg>
-          </div>
-          <ul class="navbar-dropdown" id="aboutUsDropdown">
-            <li><a class="nav-link" aria-label="Visit our mission page" href="./../our-mission/">Our Mission</a></li>
-            <li><a class="nav-link" aria-label="Visit our team page" href="./../our-team/">Our Team</a></li>
-            <li><a class="nav-link" aria-label="Visit partnerships page" href="./../partnerships/">Partnerships</a></li>
-          </ul>
-        </li>
-        <li>
-          <a class="nav-link" aria-label="Visit contact us page" href="./../contact-us/">Contact us</a>
-        </li>
-      </ul>
+      <div class="navbar-collapse-wrapper" id="navbarCollapse">
+        <ul class="navbar-collapse">
+          <li>
+            <a class="nav-link" aria-label="Visit homepage" href="./../">Home</a>
+          </li>
+          <li>
+            <div class="dropdown-link">
+              <a class="nav-link" aria-label="Visit articles page" href="./../articles/">Articles</a>
+              <svg xmlns="http://www.w3.org/2000/svg" data-target="articlesDropdown" viewBox="0 0 24 24">
+                <title>chevron-right</title>
+                <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+              </svg>
+            </div>
+            <ul class="navbar-dropdown" id="articlesDropdown">
+              <li><a class="nav-link" aria-label="Visit latest news page" href="./../latest-news/">Latest News</a></li>
+              <li><a class="nav-link" aria-label="Visit archive page" href="./../archive/">Archive</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="dropdown-link">
+              <a class="nav-link" aria-label="Visit resources page" href="./../resources/">Resources</a>
+              <svg xmlns="http://www.w3.org/2000/svg" data-target="resourcesDropdown" viewBox="0 0 24 24">
+                <title>chevron-right</title>
+                <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+              </svg>
+            </div>
+            <ul class="navbar-dropdown" id="resourcesDropdown">
+              <li><a class="nav-link" aria-label="Visit climate change page" href="./../climate-change/">Climate
+                  Change</a>
+              </li>
+              <li><a class="nav-link" aria-label="Visit ocean protection page" href="./../ocean-protection/">Ocean
+                  Protection</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="dropdown-link">
+              <a class="nav-link active" aria-label="Visit get involved page" href="./../get-involved/">Get Involved</a>
+              <svg xmlns="http://www.w3.org/2000/svg" data-target="getIvolvedDropdown" viewBox="0 0 24 24">
+                <title>chevron-right</title>
+                <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+              </svg>
+            </div>
+            <ul class="navbar-dropdown" id="getIvolvedDropdown">
+              <li><a class="nav-link" aria-label="Visit donate page" href="./../donate/">Donate</a></li>
+              <li><a class="nav-link" aria-label="Visit volunteer page" href="./../volunteer/">Volunteer</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="dropdown-link">
+              <a class="nav-link" aria-label="Visit about us page" href="./../about-us/">About Us</a>
+              <svg xmlns="http://www.w3.org/2000/svg" data-target="aboutUsDropdown" viewBox="0 0 24 24">
+                <title>chevron-right</title>
+                <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+              </svg>
+            </div>
+            <ul class="navbar-dropdown" id="aboutUsDropdown">
+              <li><a class="nav-link" aria-label="Visit our mission page" href="./../our-mission/">Our Mission</a></li>
+              <li><a class="nav-link" aria-label="Visit our team page" href="./../our-team/">Our Team</a></li>
+              <li><a class="nav-link" aria-label="Visit partnerships page" href="./../partnerships/">Partnerships</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a class="nav-link" aria-label="Visit contact us page" href="./../contact-us/">Contact us</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 
@@ -256,7 +259,7 @@
   </footer>
 
   <script>
-    document.querySelector("#navbarCollapse").style.display = "flex";
+    document.querySelector("#navbarCollapse .navbar-collapse").style.display = "flex";
   </script>
 </body>
 

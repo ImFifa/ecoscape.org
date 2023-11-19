@@ -107,17 +107,22 @@
   .navbar-logo svg {
     height: 25px;
   }
+  .navbar-collapse-wrapper {
+    position: relative;
+    left: 0;
+    margin: unset;
+    height: 80px;
+    overflow: visible;
+    width: auto;
+    background-color: unset;
+  }
   .navbar-collapse {
+    margin: unset;
     position: relative;
     padding: unset;
-    margin: unset;
-    left: 0;
     flex-direction: row;
     gap: 0;
     height: auto;
-    width: auto;
-    background-color: unset;
-    overflow-y: visible;
   }
   .navbar-toggler {
     display: none;
@@ -152,8 +157,6 @@
     left: 0;
     width: 100%;
     height: 80px;
-    opacity: 1;
-    background-color: unset;
     padding: 0;
     list-style-type: none;
     background-color: #f8f8f8;
