@@ -515,9 +515,6 @@ section {
   gap: 2rem;
 }
 
-.img-tiles-section {
-}
-
 .contact-us-banner {
   background-color: #def1e0;
   border-radius: 5px;
@@ -547,52 +544,6 @@ img {
   &:hover {
     color: #fff;
     background-color: darken(#248232, 8%);
-  }
-}
-
-form {
-  display: grid;
-  grid-template-columns: 1fr;
-  max-width: 800px;
-  gap: 1.5rem;
-
-  .form-element {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  label {
-    font-size: 0.9rem;
-    color: #16302b;
-    text-align: center;
-  }
-
-  input,
-  textarea {
-    margin: 0 auto;
-    display: block;
-    max-width: 300px;
-    width: calc(100% - 2rem);
-    padding: 0.5rem 1rem;
-    font-size: 1.1rem;
-    border-radius: 15px;
-    border: 1px solid #16302b;
-  }
-
-  button[type="submit"] {
-    margin: 0 auto;
-    font-size: 1rem;
-    color: #fff;
-    background-color: #248232;
-    padding: 0.6rem 1.5rem;
-    border: unset;
-    border-radius: 15px;
-    cursor: pointer;
-
-    &:hover {
-      background-color: darken(#248232, 8%);
-    }
   }
 }
 
